@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DAC7CFE0-F9FF-4D24-859B-3CF4022AD3B4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>quan_ly_cua_hang_ban_dt.My.MyApplication</StartupObject>
+    <RootNamespace>quan_ly_cua_hang_ban_dt</RootNamespace>
+    <AssemblyName>quan ly cua hang ban dt</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>E29F1AB403FB2A5142B2F6120C52D595BF6B3A58</ManifestCertificateThumbprint>
+    <ManifestKeyFile>quan ly cua hang ban dt_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>C:\Users\Admin\Desktop\quan ly cua hang ban dt\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>quan ly cua hang ban dt.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>quan ly cua hang ban dt.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cap Nhat Va Xoa Khach Hang.Designer.vb">
+      <DependentUpon>Cap Nhat Va Xoa Khach Hang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cap Nhat Va Xoa Khach Hang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cap Nhat va Xoa Mat Hang.Designer.vb">
+      <DependentUpon>Cap Nhat va Xoa Mat Hang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cap Nhat va Xoa Mat Hang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuaHangDienThoaiDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CuaHangDienThoaiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CuaHangDienThoaiDataSet.vb">
+      <DependentUpon>CuaHangDienThoaiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dac Diem Mat Hang.Designer.vb">
+      <DependentUpon>Dac Diem Mat Hang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dac Diem Mat Hang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form.Designer.vb">
+      <DependentUpon>Main Form.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatHangBanChay.Designer.vb">
+      <DependentUpon>MatHangBanChay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MatHangBanChay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Thanh Toan.Designer.vb">
+      <DependentUpon>Thanh Toan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Thanh Toan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Them Don Hang.Designer.vb">
+      <DependentUpon>Them Don Hang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Them Don Hang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Them Khach Hang.Designer.vb">
+      <DependentUpon>Them Khach Hang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Them Khach Hang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Them Moi Mat Hang.Designer.vb">
+      <DependentUpon>Them Moi Mat Hang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Them Moi Mat Hang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thong Tin Nha San Xuat.Designer.vb">
+      <DependentUpon>Thong Tin Nha San Xuat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Thong Tin Nha San Xuat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimKiemKhachHang.Designer.vb">
+      <DependentUpon>TimKiemKhachHang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimKiemKhachHang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimKiemMatHang.Designer.vb">
+      <DependentUpon>TimKiemMatHang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimKiemMatHang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TinhTrangTonKho.Designer.vb">
+      <DependentUpon>TinhTrangTonKho.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TinhTrangTonKho.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cap Nhat Va Xoa Khach Hang.resx">
+      <DependentUpon>Cap Nhat Va Xoa Khach Hang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cap Nhat va Xoa Mat Hang.resx">
+      <DependentUpon>Cap Nhat va Xoa Mat Hang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dac Diem Mat Hang.resx">
+      <DependentUpon>Dac Diem Mat Hang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form.resx">
+      <DependentUpon>Main Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatHangBanChay.resx">
+      <DependentUpon>MatHangBanChay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thanh Toan.resx">
+      <DependentUpon>Thanh Toan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Them Don Hang.resx">
+      <DependentUpon>Them Don Hang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Them Khach Hang.resx">
+      <DependentUpon>Them Khach Hang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Them Moi Mat Hang.resx">
+      <DependentUpon>Them Moi Mat Hang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thong Tin Nha San Xuat.resx">
+      <DependentUpon>Thong Tin Nha San Xuat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimKiemKhachHang.resx">
+      <DependentUpon>TimKiemKhachHang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimKiemMatHang.resx">
+      <DependentUpon>TimKiemMatHang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TinhTrangTonKho.resx">
+      <DependentUpon>TinhTrangTonKho.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="CuaHangDienThoaiDataSet.xsc">
+      <DependentUpon>CuaHangDienThoaiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CuaHangDienThoaiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CuaHangDienThoaiDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CuaHangDienThoaiDataSet.xss">
+      <DependentUpon>CuaHangDienThoaiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="quan ly cua hang ban dt_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
